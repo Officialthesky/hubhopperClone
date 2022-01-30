@@ -34,7 +34,7 @@ export default function Creatorbodyboxes() {
             <img title={creatorbodybox.title} alt={creatorbodybox.title} width="120px" height="120px" src={creatorbodybox.img} />
             <h4>{creatorbodybox.title}</h4>
             <p>{creatorbodybox.description}</p>
-            <a>{creatorbodybox.linkmoreinfo}</a>
+            <a href="/">{creatorbodybox.linkmoreinfo}</a>
           </div>
         );
       })}
