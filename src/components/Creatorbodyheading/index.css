@@ -1,0 +1,24 @@
+.creator-body-heading {
+       width: 100%;
+       height: 20vh;
+       text-align: center;
+       padding-top: 20px;
+       padding-bottom: 10px;
+     }
+     
+     .creator-body-heading h1 {
+       padding: 10px 0px 10px 0px;
+     }
+     
+     .creator-body-heading p {
+       padding-bottom: 30px;
+     }
+     
+     .creator-body-heading span {
+       color: red;
+     }
+     
+     
+     
+     
+     

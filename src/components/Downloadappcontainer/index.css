@@ -1,0 +1,75 @@
+.download-application-container {
+  width: 100%;
+  height: auto;
+}
+
+.download-application-header {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.download-application-header span {
+  color: red;
+}
+
+.download-application-header a {
+  color: black;
+  text-decoration: underline;
+}
+
+.download-application-header p {
+  padding: 20px;
+  font-weight: 600;
+}
+
+.download-application {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://files.hubhopper.com/assets/web/2020-11-02/listener-bg.png");
+  display: flex;
+  /* padding: 40px 0px 40px 0px; */
+}
+
+.download-app {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-app img {
+  height: 300px;
+}
+
+.download-app-img {
+  display: flex;
+}
+
+.download-app-img img {
+  width: 100%;
+  height: 30px;
+  margin: 20px 5px 0px 5px;
+}
+
+.download-app-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-app-info li {
+  padding: 5px;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 900px) {
+  .download-app-info li {
+    display: none;
+  }
+}

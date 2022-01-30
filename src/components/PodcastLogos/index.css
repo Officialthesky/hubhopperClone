@@ -1,0 +1,15 @@
+.podcast-logos {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.podcast-logo {
+  min-width: 170px;
+  height: 170px;
+  margin: 15px;
+  border-radius: 10px;
+}

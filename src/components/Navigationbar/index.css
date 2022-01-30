@@ -1,0 +1,48 @@
+.navigation-bar {
+  height: 10vh;
+  display: flex;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px 0px 40px;
+}
+
+.nav-bar button {
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid #dee2e6 !important;
+  background-color: transparent;
+  color: white;
+}
+
+.logo {
+  flex: 1;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.nav-bar {
+  flex: 1;
+}
+
+.hamburger {
+  background-color: gold;
+  width: 8vw;
+  height: 8vh;
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-bar {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    margin-right: 20px;
+    margin-top: 8px;
+  }
+}

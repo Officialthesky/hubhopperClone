@@ -1,0 +1,16 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 75vh;
+  background-image: url("https://files.hubhopper.com/assets/web/2020-11-02/web-bg.png");
+  background-color: black;
+  color: white;
+}
+
+
+
