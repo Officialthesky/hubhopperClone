@@ -10,7 +10,7 @@ export default function Downloadappcontainer() {
         </h1>
         <p>
           Discover more than a million hours of{" "}
-          <a>the best podcasts in india </a>on the Hubhopper App
+          <a href="/">the best podcasts in india </a>on the Hubhopper App
         </p>
       </div>
       <div className="download-application">
@@ -27,8 +27,14 @@ export default function Downloadappcontainer() {
             <li>Listen at your own pace 0.5x, 1x, 2x</li>
           </ul>
           <div className="download-app-img">
-            <img src="https://files.hubhopper.com/assets/web/2020-11-02/appStore.png"></img>
-            <img src="https://files.hubhopper.com/assets/web/2020-11-02/playStore.png"></img>
+            <img
+              alt="hubhopper"
+              src="https://files.hubhopper.com/assets/web/2020-11-02/appStore.png"
+            />
+            <img
+              alt="hubhopper"
+              src="https://files.hubhopper.com/assets/web/2020-11-02/playStore.png"
+            />
           </div>
         </div>
       </div>
