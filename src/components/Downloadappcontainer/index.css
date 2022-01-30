@@ -31,7 +31,6 @@
   height: 400px;
   background-image: url("https://files.hubhopper.com/assets/web/2020-11-02/listener-bg.png");
   display: flex;
-  /* padding: 40px 0px 40px 0px; */
 }
 
 .download-app {
@@ -71,5 +70,9 @@
 @media only screen and (max-width: 900px) {
   .download-app-info li {
     display: none;
+  }
+  .download-app-img {
+    display: flex;
+    flex-direction: column;
   }
 }
