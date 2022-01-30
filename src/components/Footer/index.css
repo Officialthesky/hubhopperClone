@@ -96,6 +96,7 @@ footer{
      }
 
 .footer-click-to-start{
+       width: 100%;
        height:5vh;
        background-color: #555A98;
        color:white;
@@ -104,6 +105,9 @@ footer{
        align-items: center;
        text-align: center;
        font-size: 12px;
+       position: fixed;
+       bottom: 0;
+       left: 0;
 }
 
 .footer-click-to-start a{
