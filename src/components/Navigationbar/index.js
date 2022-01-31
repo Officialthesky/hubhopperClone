@@ -25,6 +25,9 @@ export default function Navigationbar() {
           <button>How to create</button>
         </ul>
       </div>
+      <div className="hamburger">
+      <img src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png"/>
+      </div>
     </div>
   );
 }

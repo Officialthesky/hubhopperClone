@@ -29,8 +29,8 @@
   flex: 1;
 }
 
-.hamburger {
-  background-color: red;
+.hamburger img {
+  /* background-color: red; */
   width: 8vw;
   height: 8vh;
    display: none;
@@ -40,7 +40,7 @@
   .nav-bar {
     display: none;
   }
-  .hamburger {
+  .hamburger img {
     display: block;
     margin-right: 20px;
     margin-top: 8px;
