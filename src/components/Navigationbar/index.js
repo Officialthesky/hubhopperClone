@@ -26,7 +26,7 @@ export default function Navigationbar() {
         </ul>
       </div>
       <div className="hamburger">
-      <img src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png"/>
+      <img alt="hamburger" src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png"/>
       </div>
     </div>
   );
