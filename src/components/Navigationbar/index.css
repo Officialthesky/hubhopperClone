@@ -29,10 +29,11 @@
   flex: 1;
 }
 
+
+
 .hamburger img {
-  /* background-color: red; */
   width: 8vw;
-  height: 8vh;
+  height: 5vh;
    display: none;
 }
 
@@ -42,7 +43,7 @@
   }
   .hamburger img {
     display: block;
-    margin-right: 20px;
-    margin-top: 8px;
+   margin-right: 20px;
+    margin-top: 15px; 
   }
 }
