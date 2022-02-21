@@ -1,15 +1,19 @@
 import React from "react";
 import "./index.css";
 
-export default function Navigationbar() {
+export default function Navigationbar({ toggleSideBar }) {
   const navlistitems = [
     { listitems: "Create" },
     { listitems: "Listen" },
     { listitems: "Products" },
     { listitems: "Features" },
     { listitems: "FAQ" },
-    { listitems: "Add/Remove" },
+    { listitems: "Add/Remove" }
   ];
+
+  const toggle = () => {
+    toggleSideBar();
+  };
 
   return (
     <div className="navigation-bar">
@@ -25,11 +29,12 @@ export default function Navigationbar() {
           <button>How to create</button>
         </ul>
       </div>
-      <div className="hamburger">
-      <img alt="hamburger" src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png"/>
+      <div onClick={toggle} className="hamburger">
+        <img
+          alt="hamburger"
+          src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png"
+        />
       </div>
     </div>
   );
 }
-
-
