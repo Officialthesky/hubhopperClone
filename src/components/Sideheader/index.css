@@ -14,7 +14,49 @@
        background-color: #070929;
        margin-left: auto;
        animation: expand 0.6s;
+       display:flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: center;
      }
+
+     .sideheader-inner-container h1{
+       position:absolute;
+       top:2px;
+       right:4px;
+       color:white;
+       font-size: 15px;
+     }
+
+     .sideheader-navbar {
+       padding-top: 30px;
+      padding-left: 5px;
+      height:30vh;
+     }
+     .sideheader-navbar ul{
+       list-style-type: none;
+     }
+     .sideheader-navbar li{
+      padding-top: 10px;
+      font-size: 15px;
+      color:white;
+    }
+
+    .sideheader-button{
+      margin-top: 5px;
+    }
+
+    .sideheader-button button{
+      border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid #dee2e6 !important;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+    }
+
+
+    
      
      @keyframes expand {
        from {
